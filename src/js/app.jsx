@@ -1,7 +1,7 @@
 import React from "react";
-import CityInput from "./cityInput/cityInput";
-import Info from "./info/info";
-import History from "./history/history";
+import CityInput from "./components/cityInput";
+import Info from "./components/info/info";
+import History from "./components/history/history";
 
 export default class App extends React.Component {
   render() {
