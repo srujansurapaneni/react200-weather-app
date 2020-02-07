@@ -5,7 +5,23 @@ export default class Info extends React.Component {
     super(props);
   }
   render() {
-    const { weatherData } = this.props;
+    // const { weatherData } = this.props;
+    const weatherData = {
+      name: "New York",
+      coord: { lon: -0.13, lat: 51.51 },
+      main: {
+        temp: 274.08,
+        feels_like: 268.86,
+        temp_min: 271.48,
+        temp_max: 276.15,
+        pressure: 1023,
+        humidity: 93,
+        visibility: 2700
+      },
+      wind: { speed: 4.6, deg: 90 },
+      weather: [{ id: 721, main: "Haze", description: "haze", icon: "50n" }]
+    };
+
     return (
       <div className="col-6">
         <div className="card ">

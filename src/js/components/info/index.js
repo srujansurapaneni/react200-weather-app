@@ -4,7 +4,7 @@ import info from "./info";
 
 function mapStoreToProps(store) {
   return {
-    city: store.city
+    weatherData: store.city.weatherData
   };
 }
 
